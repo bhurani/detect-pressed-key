@@ -1,3 +1,5 @@
+"use strict";
+
 const box = document.querySelector(".box");
 
 document.addEventListener("keydown", e =>{
