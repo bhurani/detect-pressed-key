@@ -1,8 +1,8 @@
 const box = document.querySelector(".box");
 
 document.addEventListener("keydown", e =>{
-  let code = e.keyCode;
-  let key = code == 32 ? "Space" : e.key;
+  let code = e.keyCode,
+      key = code == 32 ? "Space" : e.key;
 
   box.querySelector(".key-code").innerText = code;
   box.querySelector(".key-name").innerText = key.toUpperCase();
